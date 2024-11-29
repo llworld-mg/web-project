@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f8d5a0;
+    font-family: sans-serif;
+}
+.title-box{
+    text-align: center;
+    margin: 100px auto 50px;
+}
+.title-box p{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.profile-box{
+    width: 240px;
+    height: 240px;
+    background-color: #fae1bb;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    transition: 0.3s;
+}
+.profile-box img{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.profile-box h4{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.profile-box .social-box{
+    background-color: #e4cba1;
+    margin: 60px auto 20px;
+    text-align: initial;
+    border-radius: 4px;
+}
+.profile-box .social-box .fa-solid{
+    margin: 5px;
+    cursor: pointer;
+}
+.profile-box .social-box .fa-brands{
+    margin: 5px;
+    cursor: pointer;
+}
+.profile-box p{
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 9px;
+}
+.Team-row{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+}
+.profile-box img:hover{
+    width: 240px;
+}
+.profile-box:hover{
+    background-color: rgb(245, 151, 27);
+    box-shadow: 0 10px 10px 10px #fcd972 ;
+}
+.profile-box .social-box:hover{
+    background-color: #fabe57;
+}
+
+
+

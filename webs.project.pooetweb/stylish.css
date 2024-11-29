@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+    text-decoration: none;
+}
+:root {
+    --bgcolor: black;       
+    --TextWhite: white;
+}
+.white-theme{
+    --bgcolor: white;      
+    --TextWhite: black;
+}
+.hero{
+    background-color: var(--bgcolor);
+    height: 100vh;
+    /* negliger scroll */
+}
+.hero header nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.hero header nav .logo{
+    color: var(--TextWhite);
+    font-size: 35px;
+    font-weight: bold;
+}
+.hero header nav .logo span{
+    color: rgb(248, 199, 135);
+}
+.hero header nav .nav-links a{
+    color: var(--TextWhite);
+    margin: 0 30px;
+    transition: 0.3s;
+}
+.hero header nav .nav-links a:hover{
+    color:  rgb(248, 199, 135);
+}
+.hero header nav span .btn-mood{
+    color: var(--TextWhite);
+    font-size: 20px;
+    cursor: pointer;
+}
+.hero .contaner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+.hero .contaner .text{
+    flex: 1;
+    padding: 20px;
+    color: var(--TextWhite);
+    border-radius: 10px;
+}
+.hero .contaner .text p{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 15px;
+    margin: 15px 0 15px;
+}
+.hero .contaner .text h4{
+    font-size: 70px;
+    margin: 15px 0 10px;
+    color:  rgb(77, 53, 21);
+}
+.hero .contaner .text span{
+    font-style: italic;
+    font-size: 10px;
+}
+.hero .contaner .image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .contaner .image img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0.2);
+}
+.hero .contaner .text .btn{
+    color: rgb(36, 36, 35);
+    background-color: rgb(248, 199, 135);
+    padding: 15px 30px;
+    border: 1px solid  rgb(248, 199, 135);
+    transition: 0.3s;
+}
+.hero .contaner .text .btn:hover{
+    box-shadow: 0 0 16px  rgb(248, 199, 135);
+}
+
+
